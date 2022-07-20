@@ -2,9 +2,10 @@ import { useFonts } from "expo-font";
 import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
 import { NativeBaseProvider, StatusBar } from "native-base";
 
-import { SignIn } from "./src/screens/SignIn";
+import { Register } from "./src/screens/Register";
 import { THEME } from "./src/styles/theme";
 import { Loading } from "./src/components/Loading";
+import { Routes } from "./src/routes";
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
@@ -16,7 +17,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {fontsLoaded ? <SignIn /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
     </NativeBaseProvider>
   );
 }
