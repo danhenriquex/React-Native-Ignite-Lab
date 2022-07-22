@@ -1,4 +1,4 @@
-<h1 align="center">🚗 Rentx</h1>
+<h1 align="center">📱 Ignite Lab</h1>
 <p align="center" id="objetivo">Project made during Ignite Lab that consists of a mobile application.</p>
 
 <div align="center" gap="10px">
@@ -26,7 +26,7 @@
 
 ### Layout
 
-Figma: https://www.figma.com/file/e8Kkb8QImQV0Z0F8WXkgju/RentX-Ignite---Offline-First?node-id=0%3A1
+Figma: https://www.figma.com/file/XRgi8sR7PIc9aP5LwB9nzX/Rocket-Help---Ignite-Lab-(Community)
 
 <div style='margin: 20px' id="layout">
   <h1 align="center">
