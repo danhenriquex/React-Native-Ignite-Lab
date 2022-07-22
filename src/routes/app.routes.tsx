@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Details, Home, Register } from "../screens";
+import { Details, Home, Register, SignIn } from "../screens";
 
 const { Screen, Navigator } = createNativeStackNavigator();
 
