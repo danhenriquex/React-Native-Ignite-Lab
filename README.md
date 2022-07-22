@@ -2,8 +2,8 @@
 <p align="center" id="objetivo">Project made during Ignite Lab that consists of a mobile application.</p>
 
 <div align="center" gap="10px">
-  <img src="https://img.shields.io/github/languages/code-size/danhenriquex/Rocketseat-Ignite-Native-Rentx"/>
-  <img src="https://img.shields.io/github/last-commit/danhenriquex/Rocketseat-Ignite-Native-Rentx"/>
+  <img src="https://img.shields.io/github/languages/code-size/danhenriquex/React-Native-Ignite-Lab"/>
+  <img src="https://img.shields.io/github/last-commit/danhenriquex/React-Native-Ignite-Lab"/>
   <img src="https://img.shields.io/badge/feito%20por-Rocketseat-8257e5"/>
 </div>
 
@@ -30,7 +30,7 @@ Figma: https://www.figma.com/file/XRgi8sR7PIc9aP5LwB9nzX/Rocket-Help---Ignite-La
 
 <div style='margin: 20px' id="layout">
   <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./src/screenshots/rentx.jpeg" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./src/screenshots/rockethelp.jpeg" />
   </h1>
 </div>
 
@@ -39,10 +39,9 @@ Figma: https://www.figma.com/file/XRgi8sR7PIc9aP5LwB9nzX/Rocket-Help---Ignite-La
 <div id="features">
 
 - [x] 01 - Interface: Screens, Input email, Input password, accessibility, forms, forms validation. Images: Svg, themes.
-- [x] 02 - Consuming API with JsonServer and axios. Passing data between screens, creating calendar, listing cars and creating appointments.
-- [x] 03 - Animation with React Reanimated, splash screen and animation with lottie.
-- [x] 04 - Auth, navigation with BottomTab and private routes.
-- [x] 05 - Offline First: configuration of WatermelonDB, fast image loading. It is possible to save the profile and get the latest update of the cars when online.
+- [x] 02 - Consuming API with Firebase and axios. Passing data between screens, creating solicitation.
+- [x] 03 - Navigation with StackNavigation and private routes.
+- [x] 04 - Finishing integration with firebase and updating solicitation.
 
 </div>
 
