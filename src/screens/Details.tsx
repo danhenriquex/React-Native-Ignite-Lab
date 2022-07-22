@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import firestore from "@react-native-firebase/firestore";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import { HStack, VStack, useTheme, Text, ScrollView } from "native-base";
+import { HStack, VStack, useTheme, Text, ScrollView, Box } from "native-base";
 import { Header } from "../components/Header";
 import { OrderProps } from "../components/Order";
 import { OrderFirestoreDTO } from "../DTOs/OrderDTO";
@@ -100,7 +100,9 @@ export function Details() {
 
   return (
     <VStack flex={1} bg="gray.700">
-      <Header title="Solicitação" />
+      <Box px={6} bg="gray.600">
+        <Header title="Solicitação" />
+      </Box>
 
       <HStack bg="gray.500" justifyContent="center" p={4}>
         {order.status === "closed" ? (
