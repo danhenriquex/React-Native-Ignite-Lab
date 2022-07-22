@@ -4,13 +4,15 @@ import {
   Heading,
 } from "native-base";
 
-type Props = {
+type Props = IIconButtonProps & {
   title: string;
-} & IIconButtonProps;
+  isLoading?: boolean;
+};
 
-export function Button({ title, ...rest }: Props) {
+export function Button({ title, isLoading = false, ...rest }: Props) {
   return (
     <NativeBaseButton
+      {...rest}
       bg="green.700"
       h={14}
       fontSize="sm"
@@ -18,7 +20,7 @@ export function Button({ title, ...rest }: Props) {
       _pressed={{
         bg: "green.500",
       }}
-      {...rest}
+      isLoading={isLoading}
     >
       <Heading color="white" fontSize="sm">
         {title}
